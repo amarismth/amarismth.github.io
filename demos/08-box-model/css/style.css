@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    border: 10px ridge orange;
+    margin: 24px 12px;
+    padding: 24px;
+    background-color: rgb(235, 212, 168);
+}
+
+p {
+    border: 20px ridge orange;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: rgb(149, 142, 227);
+    border-radius: 48px;
+}
