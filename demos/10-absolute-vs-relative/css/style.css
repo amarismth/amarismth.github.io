@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.abosolute-heading {
+    font-size: 36px;
+}
+
+.abosulute-parahraph {
+    font-size: 18px;
+}
+
+.relative-heading {
+    font-size: 5vw;
+}
+
+.realtive-paragraph {
+    font-size: 2.5vw;
+}
+
+.abosolute-image {
+    width: 350px;
+}
+
+.relative-image {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.outer-container {
+    border: 10px solid rgb(125, 125, 185);
+    width: 66%;
+}
+
+.inner-container {
+    border: 10px solid rgb(222, 186, 70);
+    width: 50%;
+}
+
+.inner-container p,
+.inner-container img {
+    display: inline-block;
+    width: 48%;
+}
