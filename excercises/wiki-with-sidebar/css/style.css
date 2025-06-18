@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    width: 250px;
+    padding: 24px;
+}
+
+#sidebar-content h2 {
+    background-color: rgb(86, 117, 210);
+    padding: 8px;
+    color: white;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding-left: 8px;
+}
+
+#sidebar-content ul a {
+    color: #111111;
+    text-decoration: none;
+}
+
+#sidebar-content ul li {
+    padding: 4px 0px;
+}
+/* flexbox item */
+#main-content {
+    /* background-color: rgb(185, 239, 224); */
+    flex: 3;
+    padding: 48px;
+}
