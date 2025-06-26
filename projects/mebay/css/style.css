@@ -7,6 +7,7 @@ body {
     font-family: sans-serif;
 }
 
+
 .showcase-items {
     columns: 3 auto;
     column-gap: 24px;
@@ -32,7 +33,7 @@ body {
 
 .container {
     display: flex;
-    padding: 100px 0px;
+    padding: 130px;
 }
 
 .container img {
@@ -80,5 +81,23 @@ body {
 }
 
 .buy-now-button {
-text-align: center;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 40px;
+    margin: 20px;
 }
+
+.add-to-cart {
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.add-to-wishlist {
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 40px;
+    margin: 20px;
+}
+
