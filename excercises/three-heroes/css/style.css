@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/sneaky_fox.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.hero-content-1 {
+    position: absolute;
+    right: 10%;
+}
+
+.hero-content-1 h1 {
+    font-size: 90px;
+    color: white;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.hero-content-1 h3 {
+    font-size: 30px;
+    color: white;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.hero-content-1 a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: orange;
+    padding: 30px;
+    color: rgb(138, 10, 8);
+}
+
+#hero-2 {
+    background-image: url(../images/two_cats_relaxing.avif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.hero-content-2 {
+    position: absolute;
+    left: 10%;
+    bottom: 70%;
+}
+
+.hero-content-2 h1 {
+    font-size: 65px;
+    color: rgb(87, 185, 255);
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.hero-content-2 a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgb(78, 112, 187);
+    padding: 30px;
+    color: rgb(255, 255, 255);   
+}
