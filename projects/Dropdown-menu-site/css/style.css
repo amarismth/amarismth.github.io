@@ -7,6 +7,13 @@ body {
     font-family: sans-serif;
 }
 
+#navbar #logo img {
+   width: 20px;
+   height: 20px;
+   display: flex;
+   display: inline;
+}
+
 #navbar {
     background: linear-gradient(
         to bottom,
@@ -16,14 +23,18 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 4px solid red;
+    position: sticky;
+    top: 0px;
 }
 
 
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: rgb(37, 37, 37);
+    color: rgb(0, 0, 0);
     padding: 24px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #navbar #logo {
@@ -37,45 +48,77 @@ body {
 #navbar a:hover {
     background-color: rgb(184, 184, 184);
     border: 3px solid red;
+    background-image: linear-gradient(
+        to bottom,
+        red,
+        maroon
+    );
+    color: white;
 }
 
 .dropdown-menu #water,
 .dropdown-menu #fire,
-.dropdown-menu #grass {
+.dropdown-menu #grass,
+.dropdown-menu #dragon {
     color:rgb(189, 189, 189);
     font-weight: bold;
-    padding-left: 10px
+    padding-left: 10px;
+    max-width: 100px;
 }
 
 #navbar #fire:hover {
-    background: linear-gradient(
-        to right,
-        orange,
-        red
-    );
+    background-image: url(../images/charmander\ cover\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 15%;
+    background-position: 1475px 110px;
+    position: relative;
     border: 3px solid rgb(185, 66, 19);
     color: white;
+    transition:
+        0.3s;
 }
 
 #navbar #water:hover {
-    background: linear-gradient(
-        to right,
-        rgb(104, 153, 232),
-        blue
-        );
+    background-image: url(../images/squirtle\ cover\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 13%;
+    background-position: 1467px 70px;
+    position: relative;
     border: 3px solid rgb(53, 92, 163);
     color: white;
+    transition:
+        0.3s;
 }
 
+
 #navbar #grass:hover {
-    background: linear-gradient(
-        to right,
-        rgb(18, 238, 99),
-        rgb(10, 120, 21)
-    );
+    background-image: url(../images/bulbasaur\ cover\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 10%;
+    background-position:  1470px 160px;
+    position: relative;
     border: 3px solid rgb(0, 128, 17);
     color: white;
+    transition:
+        0.3s;
 }
+
+#navbar #dragon:hover {
+    background-image: url(../images/gabile\ cover\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 10%;
+    background-position: 1490px 270px;
+    position: relative;
+    border: 3px solid rgb(135, 86, 165);
+    color: white;
+    transition:
+        0.3s;
+}
+
 
 .dropdown-container {
     position: relative;
@@ -95,27 +138,114 @@ body {
     visibility: visible;
 }
 
+
 .dropdown-menu #water {
-    background-color: rgb(53, 92, 163);
     width: 100%;
     min-width: 200px;
+    background: linear-gradient(
+        to right,
+        rgb(104, 153, 232),
+        blue
+        );
 }
 
 
 .dropdown-menu #fire {
-    background-color: rgb(185, 66, 19);
     width: 100%;
     min-width: 200px;
+    background: linear-gradient(
+        to right,
+        orange,
+        red
+    );
 }
 
 .dropdown-menu #grass {
-    background-color: rgb(0, 128, 17);
     width: 100%;
     min-width: 200px;
+    background: linear-gradient(
+        to right,
+        rgb(59, 160, 96),
+        rgb(8, 201, 27)
+    );
+}
+
+.dropdown-menu #dragon {
+    background-color: rgb(135, 86, 165);
+    width: 100%;
+    min-width: 200px;
+    background: linear-gradient(
+        to right,
+        rgb(183, 123, 220),
+        rgb(87, 35, 117)
+    );
 }
 
 
 .dropdown-menu img {
     width: 25px;
     height: 25px;
+    /* background-color: yellow; */
+}
+
+#layout .background-image-web {
+    width: 300px;
+    height: 300px;
+    max-width: 700px;
+    max-height: 600px;
+    background-repeat: repeat-y;
+    background-size: 20%;
+}
+
+#content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px 400px 20px 400px;  
+}
+
+.content img{
+    width: 500px;
+    height: 500px;
+}
+
+.content h3 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 3px solid rgb(23, 61, 164);
+    background: linear-gradient(
+        to right,
+        rgb(104, 153, 232),
+        blue
+        );
+    border-radius: 6px;
+}
+
+.content p {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
+    border: 0px;
+    background: linear-gradient(
+        to right,
+        rgb(104, 153, 232),
+        blue
+        );
+    border: 3px solid rgb(23, 61, 164);
+    border-radius: 6px;
+}
+
+.content {
+    flex: 300px;
+    border: 3px solid rgb(23, 40, 138);
+    background-color: rgb(66, 122, 245);
+    color: white;
+    margin: 50px;
+    padding: 24px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 30px;
 }

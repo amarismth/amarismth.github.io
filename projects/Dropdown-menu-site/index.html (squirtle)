@@ -8,8 +8,9 @@
     </head>
     <body>
         <div id="navbar">
-            <a id="logo" href="#">Poké Center</a>
-
+            <a id="logo" href="#">Poké Center
+                <img src="images/pokeball logo.png">
+            </a>
             <div class="dropdown-container">
                 <a href="#">Our Starters</a>
                 <div class="dropdown-menu">
@@ -22,6 +23,9 @@
                     <a id="grass" href="#">Bulbasaur
                         <img src="images/grass_type_icon.png">
                     </a>
+                    <a id="dragon" href="#">Gabile
+                        <img src="images/dragon_type_icon.png">
+                    </a>
                 </div>
             </div>
 
@@ -32,6 +36,26 @@
             <div class="dropdown-container">
                 <a href="#">Poké Balls</a>
             </div>
-        </div>    
+        </div> 
+        <div id="layout">
+            <div class="background-image-web">
+                <img 
+                    src="images/vecteezy_pattern-pokeball-red-and-white-ball-of-the-popular-cartoon_24649105.jpg"
+                >
+            </div>
+            <div id="content-container">
+                <div class="content">
+                    <h3>Squirtle</h3>
+                    <img
+                        src="images/squirtle cover image.png"
+                    >
+                    <p>
+                        Squirtle is a curious and brave little water-type, 
+                        looking for a loving home where 
+                        he can grow and explore!
+                    </p>      
+                </div>
+            </div>
+        </div>   
     </body>
 </html>
