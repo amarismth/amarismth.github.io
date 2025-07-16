@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-image: linear-gradient(
+        to right,
+        #1b0578,
+        #cb0578
+    );
+    display: flex;
+    align-items: center;
+    border-bottom: 10px solid #ff7740;
+    position: sticky;
+    top: 0px;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#nav-links a:hover {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    transition: 
+        0.3s;
+}
+
+#nav-links #home-page {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+}
+
+#nav-links {
+    padding-right: 50px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 250px;
+    margin-left: 40px;
+}
+
+#footer {
+    background-image: linear-gradient(
+        to right,
+        #1b0578,
+        #cb0578
+    );
+    padding: 12px;
+    color: white;
+    border-top: 10px solid #ff7740; 
+}
+
+#footer-navbar {
+    width:800px;
+    margin: auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+
+#layout {
+    background-image: url(../images/bowl\ hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-home {
+    text-align: center;
+    color: white;
+}
+
+.hero-home h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.hero-home h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.specific-color {
+    color: #ff7740;
+}
+
+#home-menu {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    border: 3px solid #ff7740;
+    border-radius: 8px;
+    background-image: linear-gradient(
+        to right,
+        #1b0578,
+        #cb0578
+    );
+    transition:
+        background-image 0.5s,
+        color 0.5s;
+}
+
+#home-menu:hover {
+    background-image: linear-gradient(
+        to right,
+        white,
+        white
+    );
+    font-weight: bold;
+    color: #ff7740;
+}

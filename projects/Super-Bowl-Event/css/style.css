@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center-column {
+    background-image: url(../images/grunge-background.png);
+    width: 50%;
+    min-width: 1000px;
+    margin: 0px auto;
+    padding: 36px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content {
+    border: 4px white solid;
+    border-radius: 8px;
+}
+
+#content h2 {
+    font-size: 50px;
+}
+
+#team-logo h2 {
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+#content img {
+    width: 350px;
+}
+
+#team-logo {
+    display: flex;
+    column-gap: 20px;
+    padding: 0px 50px
+}
+
+#title-content {
+    display: flex;
+    padding: 0px 30px;
+    justify-content: center;
+    column-gap: 370px;
+}
+
+#info-content p {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#info-content h2 {
+    margin-bottom: 0px;
+}
+
+#info-content h3 {
+    background: linear-gradient(
+        to right,
+        red,
+        rgb(55, 122, 230)
+    );
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 4px white solid;
+}
