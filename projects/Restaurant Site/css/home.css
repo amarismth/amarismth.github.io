@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -27,6 +29,7 @@ body {
     padding: 0px 20px;
     font-size: 22px;
     font-weight: bold;
+    
 }
 
 #nav-links a:hover {
@@ -109,9 +112,11 @@ body {
 
 .specific-color {
     color: #ff7740;
+    font-family: "Dancing Script", cursive;    
 }
 
 #home-menu {
+    
     text-decoration: none;
     font-size: 25px;
     color: white;
@@ -136,4 +141,155 @@ body {
     );
     font-weight: bold;
     color: #ff7740;
+}
+
+@media screen and (max-width: 791px) and (min-width: 450px) {
+
+    #navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px;
+    font-size: 11px;
+    font-weight: bold;
+    
+    }
+
+    #nav-links a:hover {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    transition: 
+        0.3s;
+    }
+
+    #nav-links #home-page {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    }
+
+    #nav-links {
+    padding-right: 50px;
+    }
+
+    #navbar #logo {
+    margin-right: auto;
+    }
+
+    #navbar #logo img {
+    width: 150px;
+    margin-left: 40px;
+    }
+
+    .hero-home {
+    text-align: center;
+    color: white;
+    padding-right: 80px;
+    padding-left: 80px;
+    }
+
+
+}
+
+/* tablet */
+@media screen and (max-width: 1032px) and (min-width: 791px) {
+    body {
+        background-color: skyblue;
+    }
+    
+    #navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    }
+
+    #nav-links a:hover {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    transition: 
+        0.3s;
+    }
+
+    #nav-links #home-page {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    }
+
+    #nav-links {
+    padding-right: 50px;
+    }
+
+    #navbar #logo {
+    margin-right: auto;
+    }
+
+    #navbar #logo img {
+    width: 150px;
+    margin-left: 40px;
+    }
+
+    .hero-home {
+    text-align: center;
+    color: white;
+    padding-right: 80px;
+    padding-left: 80px;
+    }
+
+    
+}
+
+/* mobile */
+
+@media screen and (max-width: 450px) {
+    body {
+        background-color: red;
+    }
+
+    #navbar a {
+    padding: 0px 8px;
+    font-size: 15px;
+    display: flex;      
+    }
+
+    #navbar #logo img {
+    width: 170px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    }  
+    
+    #nav-links {
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    #nav-links #home-page {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    margin-bottom: 4px;
+    }
+
+    .hero-home {
+    text-align: center;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    }
 }

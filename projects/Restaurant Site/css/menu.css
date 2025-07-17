@@ -63,7 +63,7 @@ body {
 
 #layout {
     background-image: url(../images/black\ marble\ background.jpg);
-    height: 100vh;
+    height: 230vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -115,4 +115,250 @@ body {
     );
     font-weight: bold;
     color: #ff7740;
+}
+
+#centered-column {
+    width: 200vw;
+    max-width:800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.card {
+    color: white;
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #504f4f;
+    background: linear-gradient(
+        -50deg,
+        #cb0578,
+        #cb0578,
+        #1b0578
+    );
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #ff7740;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 12px;
+    font-size: 36px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid white;
+    text-align: center;
+    text-shadow: #120450 4px 4px 10px;
+}
+
+.card h1 {
+    margin-top: 0px;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+    margin-bottom: 0px;
+}
+
+.card a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #1b0578;
+    padding: 10px;
+    display: block;
+    width:100%;
+    text-align: center;
+    border: 3px solid #120450;
+    transition:
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.card a:hover {
+    background-color: white;
+    border: 3px solid #120450;
+    color: #1b0578;
+}
+
+#footer {
+    background-image: linear-gradient(
+        to right,
+        #1b0578,
+        #cb0578
+    );
+    padding: 12px;
+    color: white;
+    border-top: 10px solid #ff7740; 
+}
+
+#footer-navbar {
+    width:800px;
+    margin: auto 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 791px) and (min-width: 450px) {
+
+    #navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px;
+    font-size: 11px;
+    font-weight: bold;
+    
+    }
+
+    #nav-links a:hover {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    transition: 
+        0.3s;
+    }
+
+    #nav-links #menu-page {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    }
+
+    #nav-links {
+    padding-right: 50px;
+    }
+
+    #navbar #logo {
+    margin-right: auto;
+    }
+
+    #navbar #logo img {
+    width: 150px;
+    margin-left: 40px;
+    }
+
+    .hero-home {
+    text-align: center;
+    color: white;
+    padding-right: 80px;
+    padding-left: 80px;
+    }
+
+
+}
+
+/* tablet */
+@media screen and (max-width: 1032px) and (min-width: 791px) {
+    body {
+        background-color: skyblue;
+    }
+    
+    #navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    }
+
+    #nav-links a:hover {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    transition: 
+        0.3s;
+    }
+
+    #nav-links #menu-page {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    }
+
+    #nav-links {
+    padding-right: 50px;
+    }
+
+    #navbar #logo {
+    margin-right: auto;
+    }
+
+    #navbar #logo img {
+    width: 150px;
+    margin-left: 40px;
+    }
+
+    .hero-home {
+    text-align: center;
+    color: white;
+    padding-right: 80px;
+    padding-left: 80px;
+    }
+
+    
+}
+
+/* mobile */
+
+@media screen and (max-width: 450px) {
+    body {
+        background-color: red;
+    }
+
+    #navbar a {
+    padding: 0px 8px;
+    font-size: 15px;
+    display: flex;      
+    }
+
+    #navbar #logo img {
+    width: 170px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    }  
+    
+    #nav-links {
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    #nav-links #menu-page {
+    background-color: white;
+    padding: 10px;
+    color: #ff7740;
+    border-radius: 8px;
+    border: 3px solid #ff7740;
+    margin-bottom: 4px;
+    }
+
+    .hero-home {
+    text-align: center;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    }
 }
