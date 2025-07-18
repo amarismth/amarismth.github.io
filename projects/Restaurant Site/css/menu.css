@@ -118,8 +118,8 @@ body {
 }
 
 #centered-column {
-    width: 200vw;
-    max-width:800px;
+    width: 300vw;
+    max-width:1200px;
     margin: 48px auto;
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +191,7 @@ body {
     border: 3px solid #120450;
     color: #1b0578;
 }
+
 
 #footer {
     background-image: linear-gradient(
